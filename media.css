@@ -1,0 +1,124 @@
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* Your CSS for mobile devices */
+  .About {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .heder,
+  .image,
+  .soft_skills,
+  .technical_skills {
+    width: 100%;
+  }
+  .cards img {
+    width: 50%;
+  }
+  .heder,
+  .image {
+    height: 40vh;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+  }
+  .heder h1 {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .cards {
+    width: 50%;
+  }
+  #Experience .cards {
+    width: 40%;
+    margin: 5%;
+    height: 20vh;
+  }
+  .CV a,
+  #Experience .p_cards {
+    font-size: medium;
+  }
+  .objective {
+    font-size: large;
+  }
+  .skills .tdiv {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  .soft_skills div ul {
+    font-size: x-large;
+  }
+  .technical_skills div img {
+    width: 15%;
+  }
+  footer div {
+    flex-direction: column;
+  }
+  footer div p {
+    flex-direction: column;
+    width: 100%;
+  }
+  .soft_skills div ul {
+    justify-content: center;
+    font-size: medium;
+  }
+  .soft_skills div ul li {
+    margin: 2%;
+    width: auto;
+  }
+  #project .cards {
+    width: 40%;
+    margin: 5%;
+  }
+  #project p {
+    flex-wrap: wrap;
+  }
+  #education .cards img {
+    border-radius: 5px;
+    width: 50%;
+  }
+
+  #education .p_cards {
+    text-align: center;
+    font-size: medium;
+  }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Your CSS for tablets */
+  .info {
+    font-size: x-large;
+    text-align: center;
+  }
+  .objective,
+  .p_cards,
+  .soft_skills ul,
+  .technical_skills,
+  .soft_skills {
+    font-size: x-large;
+  }
+  .About {
+    height: 65vh;
+  }
+
+  .cards img {
+    width: 50%;
+  }
+  .skills .tdiv {
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+  .technical_skills div img {
+    width: 10%;
+  }
+}

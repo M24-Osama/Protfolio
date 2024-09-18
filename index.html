@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Osama</title>
+    <link rel="stylesheet" href="Protfolio.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar-expand-lg navb">
+      <div class="flex navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid fs-5">
+          <a
+            class="flex justify-content-center navbar-brand bi-code-slash fs-4 co_pa"
+            style="width: 15%"
+            href="#"
+            >Osama</a
+          >
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list text-secondary"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav w-75 d-flex justify-content-evenly">
+              <li class="nav-item">
+                <a class="co_pa" aria-current="page" href="#about">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="co_pa" href="#objective">Objective</a>
+              </li>
+              <li class="nav-item">
+                <a class="co_pa" href="#educationid">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="co_pa" href="#Experienceid">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="co_pa" href="#skillsid">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="co_pa" href="#project">Project</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="page flex_col">
+      <script>
+        window.addEventListener("scroll", function () {
+          const header = document.querySelector(".navb");
+          if (window.scrollY > 70) {
+            header.classList.add("bg-dark");
+          } else {
+            header.classList.remove("bg-dark");
+          }
+        });
+      </script>
+      <div id="about" class="About flex">
+        <div class="heder flex_col">
+          <div class="info">
+            <p>Hi I'm</p>
+            <h1>Osama Altobaishat</h1>
+            <p>Full Stack Developer / Software engineer</p>
+            <div class="media flex">
+              <a
+                class="flex"
+                href="https://github.com/M24-Osama"
+                target="_blank"
+                ><i class="bi bi-github fs-2 text-light"></i
+              ></a>
+              <a
+                class="flex"
+                href="https://www.linkedin.com/in/osama-altobaishat-4172a2252/"
+                target="_blank"
+                ><i class="bi bi-linkedin fs-2 text-light"></i
+              ></a>
+              <a class="flex" href="" target="_blank"
+                ><i class="bi bi-facebook fs-2 text-light"></i
+              ></a>
+              <div class="CV flex">
+                <a class="flex" href="Osama_CV.pdf" download
+                  ><i class="bi bi-arrow-down-circle-fill fs-2 text-light"></i>
+                  <span>Download CV</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image flex"><img src="image/osama.png" alt="osama" /></div>
+      </div>
+      <div id="objective" class="objective flex_col">
+        <hr />
+        <h2>Objective</h2>
+        <p>
+          As a Full Stack Developer with a passion for AI, I aspire to leverage
+          my technical skills to build innovative, scalable, and efficient
+          software solutions. My goal is to integrate AI-driven technologies
+          into full-stack applications, enhancing user skillss and driving
+          business growth. I am committed to continuous learning and
+          professional development to reach my goal.
+        </p>
+        <div id="educationid"></div>
+        <hr />
+      </div>
+      <div id="education" class="education flex_col">
+        <h2>Education</h2>
+        <div class="flex">
+          <div class="flex cards">
+            <div class="p_cards flex">
+              <img
+                src="image/University_of_Jordan_Logo.svg.png"
+                alt="University of Jordan"
+              />
+              <p>
+                University of Jordan<br />Bachelor of IT<br />
+                Computer information systems
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="Experienceid"></div>
+        <hr />
+      </div>
+      <div id="Experience" class="education flex_col">
+        <h2>Experience</h2>
+        <div class="flex">
+          <div class="cards flex_col">
+            <div class="p_cards flex_col">
+              <p>
+                Trained in Maysalward<br />Unity developer<br />
+                2023/8
+              </p>
+            </div>
+          </div>
+          <div class="cards flex_col">
+            <div class="p_cards flex_col">
+              <p>
+                Trained in Orange Academy<br />
+                Full Stack developer<br />
+                2024/9
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="skillsid"></div>
+        <hr />
+      </div>
+      <div id="skills" class="skills flex_col">
+        <div class="soft_skills flex_col">
+          <h2>Soft skills</h2>
+          <div class="flex">
+            <ul class="flex">
+              <li>Problem solving</li>
+              <li>Team work</li>
+              <li>Fast learner</li>
+              <li>Communion</li>
+              <li>Time management</li>
+            </ul>
+          </div>
+        </div>
+        <div class="technical_skills flex_col">
+          <h2>Technical skills</h2>
+          <div class="flex">
+            <img src="Icons/css-3.png" alt="css 3" />
+            <img src="Icons/html-5.png" alt="html 5" />
+            <img src="Icons/js.png" alt="javascript" />
+            <img src="Icons/media.png" alt="bootstrap" />
+            <img src="Icons/php.png" alt="php" />
+          </div>
+          <div class="flex">
+            <img src="Icons/c-sharp.png" alt="css 3" />
+            <img src="Icons/python.png" alt="html 5" />
+            <img src="Icons/sql-server.png" alt="javascript" />
+            <img src="Icons/sql.png" alt="bootstrap" />
+            <img src="Icons/unity.png" alt="php" />
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div id="project" class="education flex_col">
+        <h2>Projects</h2>
+        <div class="p flex">
+          <div class="cards flex_col" id="card1">
+            <img src="image/run.png" alt="run game" />
+            <div class="p_cards flex_col">
+              <p>Run game</p>
+            </div>
+            <div class="description" id="description1">
+              <p>This is an exciting running game!</p>
+            </div>
+          </div>
+          <div class="cards flex_col" id="card2">
+            <img src="image/Space.png" alt="Space game" />
+            <div class="p_cards flex_col">
+              <p>Space game</p>
+            </div>
+            <div class="description" id="description2">
+              <p>This is a thrilling space adventure game!</p>
+            </div>
+          </div>
+          <div class="cards flex_col" id="card3">
+            <img src="image/AiCoffee.png" alt="Ai Coffee" />
+            <div class="p_cards flex_col">
+              <p>Ai Coffee</p>
+            </div>
+            <div class="description" id="description3">
+              <p>
+                The project is to create a program to track employees and
+                customers using artificial intelligence through the camera in
+                the coffee and sell coffee product!
+              </p>
+            </div>
+          </div>
+          <div class="cards flex_col" id="card4">
+            <img src="image/yellow-shopping-bag.jpg" alt="online shop" />
+            <div class="p_cards flex_col">
+              <p>Online shop</p>
+            </div>
+            <div class="description" id="description4">
+              <p>This is a cool online shopping platform!</p>
+            </div>
+          </div>
+        </div>
+        <script>
+          const cards = document.querySelectorAll(".cards");
+          cards.forEach((card, index) => {
+            const description = card.querySelector(".description");
+
+            card.addEventListener("mouseover", function () {
+              description.style.display = "flex";
+            });
+
+            card.addEventListener("mouseout", function () {
+              description.style.display = "none";
+            });
+          });
+        </script>
+        <hr />
+      </div>
+    </div>
+    <footer class="flex">
+      <p>© 2024 Osama Altobaishat</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
